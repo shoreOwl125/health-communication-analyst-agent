@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# private data
+data/private/
+knowledge_base/private/
+*.csv
+
+# private docs
+docs/private/
+
+# Generated outputs
+outputs/*.md
+outputs/*.txt
+eval_logs/*.jsonl

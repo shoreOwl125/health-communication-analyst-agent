@@ -1,0 +1,19 @@
+{
+  "video_id": "sample_video_001",
+  "title": "Diabetes Warning Signs You Should Not Ignore",
+  "channel": "Example Health Channel",
+  "health_topic": "diabetes",
+  "query_label": "diabetes symptoms",
+  "length_seconds": 482,
+  "transcript_source": "data/sample_transcript.txt",
+  "model_context": {
+    "label_type": "residual_positive_engagement",
+    "predicted_class": "higher_relative_engagement",
+    "prediction_confidence": 0.72,
+    "model_family": "thesis_exported_artifact_placeholder"
+  },
+  "audio_context": {
+    "audio_feature_source": "sample_video_metrics.json",
+    "note": "Audio features are precomputed summaries exported from the thesis pipeline."
+  }
+}

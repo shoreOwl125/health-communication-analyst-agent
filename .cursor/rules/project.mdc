@@ -1,0 +1,39 @@
+---
+description: Project-specific rules for the Health Video Communication Analyst Agent.
+globs:
+  - "**/*.py"
+  - "**/*.md"
+alwaysApply: true
+---
+
+# Project Rules
+
+This repository is a professional portfolio extension of a master's thesis project.
+
+## Core constraints
+
+- Do not make the LLM invent metric values.
+- Metric scores must come from deterministic code, sample JSON, or exported thesis artifacts.
+- Preserve the distinction between:
+  - metric computation/loading
+  - evidence retrieval
+  - report generation
+  - QA validation
+  - trace logging
+- Prefer small, testable functions over large scripts.
+- Keep the code understandable to both engineering and scientific reviewers.
+- Add docstrings to public functions.
+- Include guardrail checks before writing final outputs.
+
+## Communication style
+
+Generated reports should be:
+- structured
+- evidence-grounded
+- cautious
+- non-technical enough for scientist stakeholders
+- explicit about limitations
+
+## Safety and correctness
+
+Do not claim clinical, medical, or patient outcome effects. This project analyzes communication-quality signals in public health-related YouTube videos, not clinical efficacy.
