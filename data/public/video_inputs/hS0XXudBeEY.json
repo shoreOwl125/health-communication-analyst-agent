@@ -1,0 +1,22 @@
+{
+  "video_id": "hS0XXudBeEY",
+  "title": "HealthWatch: Drinking Coffee Could Cut Liver Cancer Risk",
+  "channel": "CBS Boston",
+  "health_topic": "cancer",
+  "query_label": "liver cancer",
+  "length_seconds": 199,
+  "transcript_source": "data/public/transcripts/hS0XXudBeEY.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0089678624644875,
+    "ffnn_p": 0.1761251,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

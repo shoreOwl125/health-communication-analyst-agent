@@ -6,7 +6,7 @@ downstream systems from silently accepting incomplete, malformed, or ambiguous
 outputs.
 
 Design principle:
-    Metric scores should come from deterministic thesis artifacts, not from
+    Metric scores should come from deterministic thesis interpretable metric pipeline, not from
     free-form LLM reasoning. The LLM may interpret and summarize values later,
     but it should not invent the values themselves.
 """
@@ -15,25 +15,8 @@ from __future__ import annotations
 
 from typing import Literal, List, Optional
 from pydantic import BaseModel, Field, conlist, model_validator
+from src.metric_config import EXPECTED_METRICS
 
-
-EXPECTED_METRICS: list[str] = [
-    "engagement_request_score",
-    "lexical_diversity_mtld",
-    "medical_vocabulary_rate",
-    "structured_explanation_score",
-    "readability_grade_level",
-    "sentiment_polarity",
-    "emotional_intensity",
-    "second_person_address_rate",
-    "third_person_informational_rate",
-    "explanation_density",
-    "actionability_score",
-    "topic_specificity_score",
-    "pitch_variability",
-    "voice_clarity_hnr",
-    "loudness_variability",
-]
 
 
 class VideoInput(BaseModel):
@@ -59,8 +42,11 @@ class MetricScore(BaseModel):
 
     metric_name: str
     category: Literal["text", "audio", "model"]
-    score: float = Field(ge=0.0, le=1.0)
-    baseline_mean: Optional[float] = Field(default=None, ge=0.0, le=1.0)
+    score: float = Field(description="Metric value from exported thesis artifacts.")
+    baseline_mean: Optional[float] = Field(
+        default=None,
+        description="Reference value used for comparison, such as class-1 high-like mean.",
+    )
     comparison_to_baseline: Literal["higher", "lower", "near_baseline"]
     interpretation_direction: Literal["positive", "negative", "neutral", "mixed"]
     source_field: str

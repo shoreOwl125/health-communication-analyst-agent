@@ -1,0 +1,22 @@
+{
+  "video_id": "iJAs3ADDzzA",
+  "title": "Meet Dr. Albert Polito - Lung Doctor",
+  "channel": "Mercy Medical Center - Baltimore",
+  "health_topic": "lung disease",
+  "query_label": "interstitial lung disease",
+  "length_seconds": 57,
+  "transcript_source": "data/public/transcripts/iJAs3ADDzzA.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0043755574151873,
+    "ffnn_p": 0.0039714095,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

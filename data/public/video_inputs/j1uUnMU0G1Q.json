@@ -1,0 +1,22 @@
+{
+  "video_id": "j1uUnMU0G1Q",
+  "title": "Thursday 4 p.m. COVID-19 update",
+  "channel": "KMBC 9",
+  "health_topic": "covid-19",
+  "query_label": "covid-19 update",
+  "length_seconds": 217,
+  "transcript_source": "data/public/transcripts/j1uUnMU0G1Q.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0337836779654026,
+    "ffnn_p": 0.97992545,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

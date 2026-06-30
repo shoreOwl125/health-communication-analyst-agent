@@ -1,0 +1,21 @@
+{
+    "baseline_name": "class_1_high_like_mean",
+    "description": "Mean normalized/interpretable feature values for class 1 high-like videos. Used as a target reference group for improvement-direction comparisons.",
+    "metrics": {
+      "req_eng": 0.280597,
+      "txt_mtld": 0.147057,
+      "aud_pitch_var": -0.270802,
+      "med_vocab_rate": 0.250825,
+      "aud_hnr_mean": 0.138608,
+      "counting_score": 0.174811,
+      "txt_fk_grade": 0.224856,
+      "aud_loudness_var": 0.169471,
+      "txt_vader_compound": 0.010724,
+      "pov_2": 0.134960,
+      "youth_style_rate": 0.085776,
+      "emotion_intensity": -0.070327,
+      "style_formality": 0.144827,
+      "pov_1": 0.136826,
+      "pov_3": 0.199839
+    }
+  }

@@ -1,0 +1,22 @@
+{
+  "video_id": "C7Ha5XeQ9B4",
+  "title": "What to do with an expired COVID test kit",
+  "channel": "11Alive",
+  "health_topic": "covid-19",
+  "query_label": "ihealth covid-19 test",
+  "length_seconds": 139,
+  "transcript_source": "data/public/transcripts/C7Ha5XeQ9B4.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0312665626406669,
+    "ffnn_p": 0.13251461,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

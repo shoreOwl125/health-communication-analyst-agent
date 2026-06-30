@@ -1,0 +1,22 @@
+{
+  "video_id": "qNdaQfbojiE",
+  "title": "Doctors, pharmacists getting around amoxicillin shortage",
+  "channel": "WBRC 6 News",
+  "health_topic": "respiratory infection",
+  "query_label": "lower respiratory infection",
+  "length_seconds": 183,
+  "transcript_source": "data/public/transcripts/qNdaQfbojiE.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.379055380821228,
+    "ffnn_p": 0.7979821562767029,
+    "test_set": true,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

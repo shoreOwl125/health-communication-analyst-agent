@@ -6,8 +6,10 @@ __pycache__/
 
 # private data
 data/private/
-knowledge_base/private/
 *.csv
+
+# private knowledge base
+knowledge_base/private/
 
 # private docs
 docs/private/

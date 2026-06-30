@@ -1,0 +1,22 @@
+{
+  "video_id": "o4UWmK5Q5xE",
+  "title": "Texas man diagnosed with Stage 4 kidney cancer undergoes &#39;groundbreaking&#39; treatment",
+  "channel": "WFAA",
+  "health_topic": "kidney disease",
+  "query_label": "stage 4 kidney disease",
+  "length_seconds": 103,
+  "transcript_source": "data/public/transcripts/o4UWmK5Q5xE.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0235865022987127,
+    "ffnn_p": 0.14895003,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

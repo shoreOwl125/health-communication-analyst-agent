@@ -1,0 +1,142 @@
+{
+  "video_id": "qNdaQfbojiE",
+  "metric_source": "interpretable_feature_dataset_v3.csv",
+  "baseline_name": "class_1_high_like_mean",
+  "metrics": [
+    {
+      "metric_name": "first_person_rate",
+      "category": "text",
+      "score": 0.049999999997826,
+      "baseline_mean": 0.136826,
+      "comparison_to_baseline": "lower",
+      "interpretation_direction": "neutral",
+      "source_field": "pov_1"
+    },
+    {
+      "metric_name": "second_person_address_rate",
+      "category": "text",
+      "score": 0.7417190074920654,
+      "baseline_mean": 0.13496,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "positive",
+      "source_field": "pov_2"
+    },
+    {
+      "metric_name": "third_person_informational_rate",
+      "category": "text",
+      "score": 0.2249999999902174,
+      "baseline_mean": 0.199839,
+      "comparison_to_baseline": "near_baseline",
+      "interpretation_direction": "neutral",
+      "source_field": "pov_3"
+    },
+    {
+      "metric_name": "structured_explanation_score",
+      "category": "text",
+      "score": 1.438697338104248,
+      "baseline_mean": 0.174811,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "positive",
+      "source_field": "counting_score"
+    },
+    {
+      "metric_name": "engagement_request_score",
+      "category": "text",
+      "score": -0.8733953833580017,
+      "baseline_mean": 0.280597,
+      "comparison_to_baseline": "lower",
+      "interpretation_direction": "positive",
+      "source_field": "req_eng"
+    },
+    {
+      "metric_name": "formality_score",
+      "category": "text",
+      "score": 0.64310545,
+      "baseline_mean": 0.144827,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "mixed",
+      "source_field": "style_formality"
+    },
+    {
+      "metric_name": "medical_vocabulary_rate",
+      "category": "text",
+      "score": -0.14740919,
+      "baseline_mean": 0.250825,
+      "comparison_to_baseline": "lower",
+      "interpretation_direction": "positive",
+      "source_field": "med_vocab_rate"
+    },
+    {
+      "metric_name": "youth_style_rate",
+      "category": "text",
+      "score": -0.037531674,
+      "baseline_mean": 0.085776,
+      "comparison_to_baseline": "lower",
+      "interpretation_direction": "mixed",
+      "source_field": "youth_style_rate"
+    },
+    {
+      "metric_name": "emotional_intensity",
+      "category": "text",
+      "score": 0.7030687928199768,
+      "baseline_mean": -0.070327,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "mixed",
+      "source_field": "emotion_intensity"
+    },
+    {
+      "metric_name": "readability_grade_level",
+      "category": "text",
+      "score": -0.198010042309761,
+      "baseline_mean": 0.224856,
+      "comparison_to_baseline": "lower",
+      "interpretation_direction": "mixed",
+      "source_field": "txt_fk_grade"
+    },
+    {
+      "metric_name": "lexical_diversity_mtld",
+      "category": "text",
+      "score": 0.5464726686477661,
+      "baseline_mean": 0.147057,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "positive",
+      "source_field": "txt_mtld"
+    },
+    {
+      "metric_name": "sentiment_polarity",
+      "category": "text",
+      "score": 0.8269029259681702,
+      "baseline_mean": 0.010724,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "neutral",
+      "source_field": "txt_vader_compound"
+    },
+    {
+      "metric_name": "pitch_variability",
+      "category": "audio",
+      "score": -0.2663373351097107,
+      "baseline_mean": -0.270802,
+      "comparison_to_baseline": "near_baseline",
+      "interpretation_direction": "mixed",
+      "source_field": "aud_pitch_var"
+    },
+    {
+      "metric_name": "loudness_variability",
+      "category": "audio",
+      "score": -0.524380624294281,
+      "baseline_mean": 0.169471,
+      "comparison_to_baseline": "lower",
+      "interpretation_direction": "neutral",
+      "source_field": "aud_loudness_var"
+    },
+    {
+      "metric_name": "voice_clarity_hnr",
+      "category": "audio",
+      "score": 0.717860996723175,
+      "baseline_mean": 0.138608,
+      "comparison_to_baseline": "higher",
+      "interpretation_direction": "positive",
+      "source_field": "aud_hnr_mean"
+    }
+  ]
+}

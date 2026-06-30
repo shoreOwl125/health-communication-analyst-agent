@@ -1,0 +1,22 @@
+{
+  "video_id": "aKuwlJS-4T0",
+  "title": "Massachusetts to distribute 2M free COVID-19 rapid tests",
+  "channel": "WCVB Channel 5 Boston",
+  "health_topic": "covid-19",
+  "query_label": "ihealth covid-19 antigen rapid test",
+  "length_seconds": 116,
+  "transcript_source": "data/public/transcripts/aKuwlJS-4T0.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0082212863489985,
+    "ffnn_p": 0.042758036,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

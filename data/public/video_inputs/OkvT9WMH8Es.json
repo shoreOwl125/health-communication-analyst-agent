@@ -1,0 +1,22 @@
+{
+  "video_id": "OkvT9WMH8Es",
+  "title": "Wear The Gown: A deep look at the most common form of liver disease in kids",
+  "channel": "KENS 5: Your San Antonio News Source",
+  "health_topic": "liver disease",
+  "query_label": "liver disease alcohol",
+  "length_seconds": 36,
+  "transcript_source": "data/public/transcripts/OkvT9WMH8Es.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0035265369806438,
+    "ffnn_p": 0.0034601744,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

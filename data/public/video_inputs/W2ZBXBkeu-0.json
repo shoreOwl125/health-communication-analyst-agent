@@ -1,0 +1,22 @@
+{
+  "video_id": "W2ZBXBkeu-0",
+  "title": "Symptoms of Colorectal Cancer",
+  "channel": "Winship Cancer Institute of Emory University",
+  "health_topic": "cancer",
+  "query_label": "signs of cancer",
+  "length_seconds": 67,
+  "transcript_source": "data/public/transcripts/W2ZBXBkeu-0.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0175740849226713,
+    "ffnn_p": 0.20094858,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

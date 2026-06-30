@@ -1,0 +1,22 @@
+{
+  "video_id": "EQwHJtVsf_k",
+  "title": "Mark London, M.D., Dialysis Access Surgeon - MUSC Health",
+  "channel": "MUSC Health",
+  "health_topic": "kidney disease",
+  "query_label": "dialysis",
+  "length_seconds": 92,
+  "transcript_source": "data/public/transcripts/EQwHJtVsf_k.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0054537472315132,
+    "ffnn_p": 0.015147734,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "video_id": "tDnerKK2Iw4",
+  "title": "Cirrhosis: Phil&#39;s story | NHS",
+  "channel": "NHS",
+  "health_topic": "liver disease",
+  "query_label": "alcoholic liver disease",
+  "length_seconds": 52,
+  "transcript_source": "data/public/transcripts/tDnerKK2Iw4.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0073496936820447,
+    "ffnn_p": 0.005926845,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

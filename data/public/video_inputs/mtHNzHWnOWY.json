@@ -1,0 +1,22 @@
+{
+  "video_id": "mtHNzHWnOWY",
+  "title": "Expert Insights: How statins can treat stroke",
+  "channel": "University of Arizona Health Sciences",
+  "health_topic": "stroke",
+  "query_label": "cva",
+  "length_seconds": 132,
+  "transcript_source": "data/public/transcripts/mtHNzHWnOWY.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.0323304161429405,
+    "ffnn_p": 0.76625746,
+    "test_set": false,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}

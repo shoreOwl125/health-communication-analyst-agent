@@ -1,0 +1,22 @@
+{
+  "video_id": "nvpnCiKkByA",
+  "title": "What to know about chronic kidney disease - ADC Video",
+  "channel": "The Austin Diagnostic Clinic (ADCHealth)",
+  "health_topic": "kidney disease",
+  "query_label": "reverse kidney disease",
+  "length_seconds": 132,
+  "transcript_source": "data/public/transcripts/nvpnCiKkByA.txt",
+  "model_context": {
+    "label_type": "thesis_interpretable_feature_label",
+    "true_label": 0,
+    "target_subset": "label_0_lower_engagement_or_improvement_potential",
+    "xgb_p": 0.4588337540626526,
+    "ffnn_p": 0.3398711085319519,
+    "test_set": true,
+    "note": "Prediction fields are exported thesis artifacts. They are provided as model evidence, not recalculated by this MVP."
+  },
+  "audio_context": {
+    "audio_feature_source": "interpretable_feature_dataset_v3.csv",
+    "note": "Audio metrics are normalized thesis-derived summary features."
+  }
+}
